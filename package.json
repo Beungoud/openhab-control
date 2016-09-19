@@ -1,0 +1,56 @@
+{
+    "author": "benoit.goudy.pebble@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "openhab-control",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "OpenHab Control",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "APP_READY",
+            "BackgroundColor",
+            "ForegroundColor",
+            "ServerIP",
+            "ServerPort",
+            "ItemName[20]",
+            "ItemLabel[20]",
+            "SendCommandTo",
+            "CommandResult"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/config_required.png",
+                    "name": "CONFIG_REQUIRED",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "app_icon",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "0e5c85ec-d1af-425f-b046-3cd113961977",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.2.0"
+}
